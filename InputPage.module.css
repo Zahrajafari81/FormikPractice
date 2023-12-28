@@ -1,0 +1,71 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(../assets/images/bkg.jpg) no-repeat;
+    position:center;
+    background-size: cover;
+  
+}
+h2{
+    color: white;
+    font-size: 2em;
+    position: fixed;
+    top: 100px;
+}
+.formBox{
+    position: relative;
+    /* border-radius: 5px; */
+    height: 450px;
+    width: 400px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.inputContainer{
+   color: black;
+   border: 1px solid #ffff;
+   background-color: #ffff;
+   border-radius: 5px;
+  
+}
+.FieldContainer{
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 30px;
+}
+.buttonContainer{
+    border: 1px solid #fff;
+    background-color: #ffff;
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 100px;
+    width: 150px;
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonContainer:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
